@@ -32,7 +32,7 @@ function qBittorrent_download {
             *) warn_1; echo "Please choose a valid version"; normal_3;;
         esac
     done
-    wget https://raw.githubusercontent.com/jerry048/Seedbox-Components/main/Torrent%20Clients/qBittorrent/qBittorrent/qBittorrent%20$qBver%20-%20$libver/qbittorrent-nox && chmod +x $HOME/qbittorrent-nox
+    wget https://github.com/userdocs/qbittorrent-nox-static/releases/download/release-4.3.8_v1.2.14/aarch64-qbittorrent-nox && chmod +x $HOME/qbittorrent-nox
 }
 
 function qBittorrent_install {
